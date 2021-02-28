@@ -1,3 +1,3 @@
 # UniLab-Project
 
-https://poladi.github.io/UniLab-Project/page2.html
+https://poladi.github.io/UniLab-Project/
