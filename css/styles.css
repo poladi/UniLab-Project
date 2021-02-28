@@ -1,0 +1,279 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f8f9;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f6f8f9;
+}
+.textinfo {
+  position: absolute;
+  top: 150px;
+  left: 120px;
+  right: 120px;
+  color: #f6f8f9;
+}
+.firstcaption {
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+  right: 120px;
+  color: #f6f8f9;
+}
+.secondcaption {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  right: 120px;
+  color: #f6f8f9;
+}
+h3 {
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+hr {
+  width: 400px;
+}
+.firstimg {
+  position: relative;
+  padding-bottom: 60px;
+}
+.secondimg {
+  position: relative;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #a6adb4;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.logo {
+  color: #fa6980;
+  font-weight: bold;
+}
+.navlogo {
+  width: 30px;
+  height: 30px;
+  float: right;
+  padding: 10px 40px;
+}
+.right-nav {
+  float: right;
+}
+:root {
+  font-size: 15px;
+}
+.pinkbutton {
+  width: 134px;
+  height: 40px;
+  background-color: #fa6980;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.firstbox {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+}
+.more-news > :first-child {
+  position: relative;
+  width: 840px;
+  height: 600px;
+}
+.more-news-img {
+  width: 100%;
+  height: 100%;
+}
+.more-news > :last-child {
+  background-color: #ffffff;
+  width: 600px;
+  height: 600px;
+}
+.news-parag {
+  width: 380px;
+  height: auto;
+
+  margin: 110px;
+}
+.blind-text {
+  color: #a6adb4;
+}
+.space {
+  padding-left: 50px;
+}
+h2 {
+  color: #fa6980;
+}
+.container {
+  width: 1240px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.orange-box1 > :first-child {
+  background-color: #38c8fe;
+  height: 140px;
+  width: 20%;
+}
+.orange-box1 > :last-child {
+  background-color: #ffaf47;
+  height: 140px;
+  width: 78%;
+}
+.navbar {
+  height: 50px;
+}
+footer {
+  position: relative;
+  height: 200px;
+  background-color: #a6adb4;
+}
+hr.hrline {
+  width: 560px;
+  float: left;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+.trending-box > section {
+  width: 360px;
+  height: 350px;
+  background-color: white;
+}
+.trending-box > :first-child {
+  margin-right: -50px;
+}
+.tr-box {
+  width: 360px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+.happening-box {
+  margin-bottom: 100px;
+}
+.happening-box > :first-child {
+  width: 780px;
+  height: 900px;
+}
+.img-happ {
+  width: 760px;
+  height: 430px;
+}
+
+.happening-box > :last-child {
+  width: 360px;
+  height: 896px;
+}
+.littleimg {
+  width: 360px;
+  height: 210px;
+}
+
+.footerinput > article {
+  margin: 20px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.footerinfo > :last-child {
+  margin-right: 50px;
+}
+.footerinfo > :first-child {
+  margin: 30px 1px 30px 100px;
+}
+.mailbox {
+  position: relative;
+  margin: 50px 1px 30px 1px;
+  color: #ccc;
+}
+.socialicons {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.socialicons > section {
+  flex-direction: row;
+  padding-right: 25px;
+}
+.mailinp {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #a6adb4;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.time {
+  display: inline-block;
+  margin-right: 10px;
+}
+::placeholder {
+  color: #ccc;
+}
+.sendicon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #f6f8f9;
+}
+.send {
+  width: 25px;
+}
+
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-row {
+  flex-direction: row;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+.mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+/* @media screen and (min-width: 320px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1224px) {
+} */
